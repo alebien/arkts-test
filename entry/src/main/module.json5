@@ -5,8 +5,7 @@
     "description": "$string:module_desc",
     "mainElement": "EntryAbility",
     "deviceTypes": [
-      "phone",
-      "tablet"
+      "phone"
     ],
     "deliveryWithInstall": true,
     "installationFree": false,
@@ -15,12 +14,13 @@
       {
         "name": "EntryAbility",
         "srcEntry": "./ets/entryability/EntryAbility.ts",
-        "description": "$string:EntryAbility_desc",
+        "description": "$string:entryAbility_desc",
         "icon": "$media:icon",
-        "label": "$string:EntryAbility_label",
+        "label": "$string:entryAbility_label",
         "startWindowIcon": "$media:icon",
         "startWindowBackground": "$color:start_window_background",
         "exported": true,
+        "orientation": "portrait",
         "skills": [
           {
             "entities": [
